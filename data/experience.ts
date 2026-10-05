@@ -1,0 +1,73 @@
+import { ExperienceItem } from "@/types";
+
+export const experienceData: ExperienceItem[] = [
+  {
+    id: "nexanova",
+    role: "Software Developer Intern",
+    company: "NexaNova ProTech",
+    location: "Pune, Maharashtra / Remote",
+    period: "Dec 2025 – Jun 2026",
+    duration: "6 Months",
+    type: "Internship",
+    overview:
+      "Contributed to full-stack web applications under agile development cycles across 3 core systems.",
+    liveSystemsLabel: "KEY SYSTEMS",
+    liveSystems: [
+      "Online Quiz Application",
+      "Training Scheduling System",
+      "Trainer & Subject Management System",
+    ],
+    keyContributions: [
+      "Developed core features and reusable modules across 3 internal web applications.",
+      "Developed and documented scalable RESTful APIs using Spring Boot, Node.js, and Express.",
+      "Implemented JWT authentication and role-based access control.",
+      "Built responsive and interactive user interfaces using React.js and Tailwind CSS.",
+      "Optimized relational database queries using MySQL.",
+      "Participated in sprint planning, code reviews, automated testing, debugging, and performance-related activities.",
+    ],
+    technologies: [
+      "React.js",
+      "Node.js",
+      "Express.js",
+      "Spring Boot",
+      "MySQL",
+      "JWT",
+      "REST APIs",
+      "Git",
+      "Postman",
+    ],
+    certificateUrl: "/certificates/nexanova_protech_internship.jpg",
+    certificatePreview: "/certificates/nexanova_protech_internship.jpg",
+    isPdfCertificate: false,
+  },
+  {
+    id: "vkumar",
+    role: "Industrial Intern",
+    company: "V Kumar Solutions (I) Pvt. Ltd.",
+    location: "Pune, Maharashtra",
+    period: "Dec 15, 2025 – Mar 17, 2026",
+    duration: "3 Months",
+    type: "Industrial Internship",
+    overview:
+      "Worked on an Inventory Management System as part of my industrial internship, gaining practical experience in developing and working with a real-world software application.",
+    liveSystemsLabel: "PROJECT",
+    liveSystems: ["Inventory Management System"],
+    keyContributions: [
+      "Contributed to full-stack development of the Enterprise Inventory Management System for stock and audit tracking.",
+      "Developed secure RESTful backend APIs using Java and Spring Boot with JWT authentication.",
+      "Designed normalized MySQL database tables for inventory transactions, audit logs, and low-stock alerts.",
+    ],
+    technologies: [
+      "React.js",
+      "Spring Boot",
+      "Spring Security",
+      "MySQL",
+      "JWT",
+      "REST APIs",
+      "Maven",
+    ],
+    certificateUrl: "/certificates/vkumar_solutions_internship.pdf",
+    certificatePreview: "/certificates/vkumar_solutions_internship_preview.png",
+    isPdfCertificate: true,
+  },
+];
